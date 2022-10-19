@@ -1,0 +1,41 @@
+*,
+*::after,
+*::before {
+    /* margin: 0;
+    padding: 0; */
+    box-sizing: border-box;
+}
+
+:root {
+    --width: 600px;
+    --height: 100vh;
+    --centerText: center;
+    --border:
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    height: var(--height);
+    column-gap: 20px;
+}
+
+main {
+    background-color: blueviolet;
+    width: var(--width);
+    align-self: center; /*for vertical alignment*/
+    height: 30vh;
+    text-align: var(--centerText);
+}
+
+header {
+    background-color: aqua;
+    width: var(--width);
+    text-align: var(--centerText);
+
+}
+footer {
+    background-color: blue;
+    width: var(--width);
+    text-align: var(--centerText);
+}
